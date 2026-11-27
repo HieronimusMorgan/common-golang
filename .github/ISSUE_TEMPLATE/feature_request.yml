@@ -1,0 +1,9 @@
+name: Feature request
+description: Propose a reusable infrastructure capability
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Problem, proposed API and alternatives
+    validations:
+      required: true

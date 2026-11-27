@@ -1,0 +1,3 @@
+# Security policy
+
+This source archive is a pre-release candidate, not a supported production release. Report suspected vulnerabilities privately through GitHub private vulnerability reporting **after the owner enables it**, or a privately agreed maintainer channel. Do not disclose credentials, exploit data or tenant records in public issues. The owner must define supported releases and response commitments before public publication. Do not treat the tracked-path guard as secret scanning; enable GitHub secret scanning/push protection or an approved scanner. Review dependencies with govulncheck on a supported patched toolchain.

@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+keys/
+*.pem
+*.key
+*.test
+coverage.out

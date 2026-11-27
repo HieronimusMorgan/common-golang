@@ -1,0 +1,31 @@
+name: Tagged pre-release
+on:
+  push:
+    tags: ['v0.*']
+permissions:
+  contents: read
+jobs:
+  verify:
+    uses: ./.github/workflows/ci.yml
+  release:
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache: false
+      - name: Verify tag and license decision
+        run: |
+          [[ "$GITHUB_REF_NAME" =~ ^v0\.[0-9]+\.[0-9]+$ ]]
+          test -s LICENSE
+          git diff --exit-code -- go.mod go.sum
+      - name: Generate module inventory
+        run: go list -mod=readonly -m -json all > go-modules.json
+      - name: Create pre-release (not stable)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" go-modules.json --verify-tag --prerelease --generate-notes

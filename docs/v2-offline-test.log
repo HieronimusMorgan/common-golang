@@ -1,0 +1,19 @@
+ok  	github.com/HieronimusMorgan/common-golang/apperror	1.020s
+ok  	github.com/HieronimusMorgan/common-golang/audit	1.013s
+ok  	github.com/HieronimusMorgan/common-golang/config	1.011s
+ok  	github.com/HieronimusMorgan/common-golang/database	1.009s
+ok  	github.com/HieronimusMorgan/common-golang/health	1.037s
+ok  	github.com/HieronimusMorgan/common-golang/httpclient	1.022s
+ok  	github.com/HieronimusMorgan/common-golang/idempotency	1.012s
+ok  	github.com/HieronimusMorgan/common-golang/lifecycle	1.011s
+ok  	github.com/HieronimusMorgan/common-golang/logger	1.013s
+ok  	github.com/HieronimusMorgan/common-golang/observability	1.015s
+ok  	github.com/HieronimusMorgan/common-golang/outbox	1.013s
+ok  	github.com/HieronimusMorgan/common-golang/pagination	1.011s
+ok  	github.com/HieronimusMorgan/common-golang/requestctx	1.012s
+ok  	github.com/HieronimusMorgan/common-golang/resilience	1.015s
+ok  	github.com/HieronimusMorgan/common-golang/scope	1.009s
+ok  	github.com/HieronimusMorgan/common-golang/validation	1.014s
+
+test_exit=0
+vet_exit=0

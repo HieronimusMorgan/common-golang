@@ -1,0 +1,3 @@
+# Contributing
+
+Keep packages transport-neutral when possible, use context for I/O, avoid global infrastructure, and keep business entities outside this module. Add tests for success and failure behavior, update integration documentation and migrations, and describe compatibility changes. Use conventional commits (`feat:`, `fix:`, `docs:`). Before submitting, run `make bootstrap`, `make vet`, `make test`, and the appropriate integration suite. Review the GitHub workflow output. Do not include credentials or personal/business data. License and contributor terms must be chosen by the repository owner before accepting external contributions.

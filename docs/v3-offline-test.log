@@ -1,0 +1,29 @@
+ok  	github.com/HieronimusMorgan/common-golang/apperror	1.010s
+ok  	github.com/HieronimusMorgan/common-golang/audit	1.015s
+ok  	github.com/HieronimusMorgan/common-golang/auth	1.009s
+ok  	github.com/HieronimusMorgan/common-golang/cache	1.034s
+ok  	github.com/HieronimusMorgan/common-golang/config	1.037s
+ok  	github.com/HieronimusMorgan/common-golang/database	1.021s
+ok  	github.com/HieronimusMorgan/common-golang/event	1.014s
+ok  	github.com/HieronimusMorgan/common-golang/featureflag	1.013s
+ok  	github.com/HieronimusMorgan/common-golang/health	1.031s
+ok  	github.com/HieronimusMorgan/common-golang/httpclient	1.022s
+ok  	github.com/HieronimusMorgan/common-golang/idempotency	1.013s
+ok  	github.com/HieronimusMorgan/common-golang/inbox	1.014s
+ok  	github.com/HieronimusMorgan/common-golang/lifecycle	1.016s
+ok  	github.com/HieronimusMorgan/common-golang/logger	1.014s
+ok  	github.com/HieronimusMorgan/common-golang/observability	1.020s
+ok  	github.com/HieronimusMorgan/common-golang/outbox	1.013s
+ok  	github.com/HieronimusMorgan/common-golang/rbac	1.014s
+ok  	github.com/HieronimusMorgan/common-golang/requestctx	1.011s
+ok  	github.com/HieronimusMorgan/common-golang/resilience	1.017s
+ok  	github.com/HieronimusMorgan/common-golang/retention	1.013s
+ok  	github.com/HieronimusMorgan/common-golang/scheduler	1.015s
+ok  	github.com/HieronimusMorgan/common-golang/scope	1.010s
+ok  	github.com/HieronimusMorgan/common-golang/storage	1.013s
+ok  	github.com/HieronimusMorgan/common-golang/validation	1.010s
+ok  	github.com/HieronimusMorgan/common-golang/worker	1.010s
+test_exit=0
+vet_exit=0
+ok  	command-line-arguments	1.010s
+bounded_pagination_exit=0

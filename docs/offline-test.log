@@ -1,0 +1,10 @@
+ok  	github.com/HieronimusMorgan/common-golang/apperror	1.009s
+ok  	github.com/HieronimusMorgan/common-golang/config	1.010s
+ok  	github.com/HieronimusMorgan/common-golang/health	1.010s
+ok  	github.com/HieronimusMorgan/common-golang/httpclient	1.018s
+ok  	github.com/HieronimusMorgan/common-golang/lifecycle	1.018s
+ok  	github.com/HieronimusMorgan/common-golang/logger	1.011s
+ok  	github.com/HieronimusMorgan/common-golang/pagination	1.013s
+ok  	github.com/HieronimusMorgan/common-golang/requestctx	1.011s
+ok  	github.com/HieronimusMorgan/common-golang/scope	1.029s
+test_exit=0 vet_exit=0

@@ -1,0 +1,16 @@
+name: Bug report
+description: Report a reproducible library problem
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Module and Go version
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction and expected / actual results
+      description: Do not include tokens, credentials or tenant data.
+    validations:
+      required: true
